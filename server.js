@@ -16,7 +16,7 @@ mongoose.connect("mongodb://localhost:27017/codeShare", {
 .catch((err) => console.log(err))
 
 app.get("/", (req, res) => {
-  const code = `Welcome to WasteBin!
+  const code = `Welcome to codeShare!
 Use the commands in the top right corner
 to create a new file to share with others.`
 
